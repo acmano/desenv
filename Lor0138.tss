@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>D:\Mano\CSharp\Android\Lor0138\Activities\Main\ActMain.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Mano\CSharp\Android\Lor0138\Classes\Consultas\Consulta00\Classe.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Mano\CSharp\Android\Lor0138\Classes\Consultas\Item\Classe.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Mano\CSharp\Android\Lor0138\Resources\Layout\Main.xml</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

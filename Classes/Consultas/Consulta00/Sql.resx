@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="QueryItem" xml:space="preserve">
+    <value>SELECT  tabela.CodigoItem
+     ,  tabela.DescricaoItem
+     ,  tabela.CodigoUnidadeMedida
+     ,  tabela.CodigoClassificacaoFiscal
+     ,  tabela.CodigoIncidenciaIcms
+     ,  tabela.CodigoIncidenciaIpi
+     ,  tabela.AliquotaIpi
+     ,  tabela.CodigoContenedor
+     ,  tabela.DescricaoContenedor
+     ,  tabela.QuantidadeItensContenedor
+     ,  tabela.QuantidadeEmpilhamentoMaximo
+     ,  tabela.CodigoPainel
+     ,  tabela.CodigoPainelFisico
+     ,  tabela.CodigoTipoItem
+     ,  tabela.DescricaoTipoItem
+     ,  tabela.CodigoFamilia
+     ,  tabela.DescricaoFamilia
+     ,  tabela.DataCadastro
+     ,  tabela.ProdutoChave
+     ,  tabela.CodigoGrupoControleEstoque
+     ,  tabela.DescricaoGrupoControleEstoque
+     ,  tabela.CodigoSituacao0022
+     ,  tabela.DescricaoSituacao0022
+     ,  tabela.CodigoSituacao0770
+     ,  tabela.DescricaoSituacao0770
+     ,  tabela.Estoque
+     ,  tabela.CodigoLocalEstoque
+     ,  tabela.DescricaoLocalEstoque
+     ,  tabela.CodigoLocalProducao
+     ,  tabela.DescricaoLocalProducao
+     ,  tabela.Inspecao
+     ,  tabela.CodigoLocalInspecao
+     ,  tabela.DescricaoLocalInspecao
+     ,  tabela.IesForcaApontamento
+     ,  tabela.IesSofreBaixa
+     ,  tabela.IesAberturaLiberacao
+     ,  tabela.IesPlanejamento
+     ,  tabela.QuantidadeEstoqueSeguranca
+     ,  tabela.QuantidadeDiasEstoqueSeguranca
+     ,  tabela.QuantidadeDiasRessuprimento
+     ,  tabela.CodigoProgramador
+     ,  tabela.NomeProgramador
+     ,  tabela.QuantidadeProgramacaoMinima
+     ,  tabela.QuantidadeProgramacaoMaxima
+     ,  tabela.CodigoComprador
+     ,  tabela.NomeComprador
+     ,  tabela.QuantidadeProgramacaoMultipla
+     ,  tabela.QuantidadeProgramacaoFixa
+     ,  tabela.CodigoLinhaProduto
+     ,  tabela.DescricaoLinhaProduto
+     ,  tabela.CodigoLinhaReceita
+     ,  tabela.DescricaoLinhaReceita
+     ,  tabela.CodigoSegmentoMercado
+     ,  tabela.DescricaoSegmentoMercado
+     ,  tabela.CodigoClasseUso
+     ,  tabela.DescricaoClasseUso  FROM  OPENQUERY
+  (
+    {0}
+ , 'SELECT item.cod_item as CodigoItem
+ , item.den_item as DescricaoItem
+ , item.cod_unid_med as CodigoUnidadeMedida
+ 
+ -- Linha 1
+ , item.cod_cla_fisc as CodigoClassificacaoFiscal
+ , NVL ( item_sup.ies_tip_incid_icms, " " ) as CodigoIncidenciaIcms
+ , NVL ( item_sup.ies_tip_incid_ipi, " " ) as CodigoIncidenciaIpi
+ , item.pct_ipi as AliquotaIpi
+ 
+ -- Linha 2
+ , NVL ( lor_container.cod_container, " " ) as CodigoContenedor
+ , NVL ( lor_container.den_container, " " ) as DescricaoContenedor
+ , NVL ( lor_it_cont.qtd_item, 0 )::INTEGER as QuantidadeItensContenedor
+ , NVL ( lor_it_cont.qtd_emp_maximo, 0 )::INTEGER as QuantidadeEmpilhamentoMaximo
+ , NVL ( lor_it_cont.cod_painel, " " ) as CodigoPainel
+ , NVL ( lor_it_cont.cod_painel_fisico, " " ) as CodigoPainelFisico
+ 
+ -- Linha 3
+ , item.ies_tip_item as CodigoTipoItem
+ , NVL ( p_den_tip_item ( item.ies_tip_item ), " " ) as DescricaoTipoItem
+ , NVL ( familia.cod_familia, " " ) as CodigoFamilia
+ , NVL ( familia.den_familia, " " ) as DescricaoFamilia
+ , item.dat_cadastro as DataCadastro
+ , CASE lor_prod_chave.cod_empresa
+ WHEN NULL
+ THEN " "
+ ELSE
+ lor_prod_chave.cod_linha
+ || lor_prod_chave.cod_familia
+ || p_zero_esq ( lor_prod_chave.cod_prod_chave, 3 )
+ END as ProdutoChave
+ 
+ -- Linha 4
+ , NVL ( grupo_ctr_estoq.gru_ctr_estoq, " " ) as CodigoGrupoControleEstoque
+ , NVL ( grupo_ctr_estoq.den_gru_ctr_estoq, " " ) as DescricaoGrupoControleEstoque
+ , item.ies_situacao as CodigoSituacao0022
+ , p_den_situacao ( item.ies_situacao ) as DescricaoSituacao0022
+ , NVL ( lor_item.ies_situa, " " ) as CodigoSituacao0770
+ , NVL ( lor_item_sit.den_situacao, " " ) as DescricaoSituacao0770
+ 
+ -- Linha 5
+ , item.ies_ctr_estoque = "S" as Estoque
+ , NVL ( local_estoque.cod_local, " ") as CodigoLocalEstoque
+ , NVL ( local_estoque.den_local, " ") as DescricaoLocalEstoque
+ , NVL ( local_producao.cod_local, " ") as CodigoLocalProducao
+ , NVL ( local_producao.den_local, " ") as DescricaoLocalProducao
+ 
+ -- Linha 6
+ , item.ies_tem_inspecao = "S" as Inspecao
+ , NVL ( local_inspecao.cod_local, " ") as CodigoLocalInspecao
+ , NVL ( local_inspecao.den_local, " ") as DescricaoLocalInspecao
+ , NVL ( item_man.ies_forca_apont, "N" ) = "S" as IesForcaApontamento
+ , NVL ( item_man.ies_sofre_baixa, "N" ) = "S" as IesSofreBaixa
+ , NVL ( item_man.ies_abert_liber, " " ) as IesAberturaLiberacao
+ , NVL ( item_man.ies_planejamento, " " ) as IesPlanejamento
+ 
+ -- Linha 7
+ , NVL ( item_sup.qtd_estoq_seg, 0.0 ) as QuantidadeEstoqueSeguranca
+ , NVL ( item_sup.qtd_dias_est_seg, 0 ) as QuantidadeDiasEstoqueSeguranca
+ , NVL ( item_man.tmp_ressup, 0 ) as QuantidadeDiasRessuprimento
+ , NVL ( programador.cod_progr, " " ) as CodigoProgramador
+ , NVL ( programador.nom_progr, " " ) as NomeProgramador
+ 
+ -- Linha 8
+ , NVL ( item_man.qtd_prog_minima, 0.0 ) as QuantidadeProgramacaoMinima
+ , NVL ( item_man.qtd_prog_maxima, 0.0 ) as QuantidadeProgramacaoMaxima
+ , NVL ( comprador.cod_comprador, " " ) as CodigoComprador
+ , NVL ( comprador.nom_comprador, " " ) as NomeComprador
+ 
+ -- Linha 9
+ , NVL ( item_man.qtd_prog_multipla, 0.0 ) as QuantidadeProgramacaoMultipla
+ , NVL ( item_man.qtd_prog_fixa, 0.0 ) as QuantidadeProgramacaoFixa
+ 
+ -- Linha 10
+ , item.cod_lin_prod as CodigoLinhaProduto
+ , p_den_linha_prod ( item.cod_lin_prod, 0, 0, 0 ) as DescricaoLinhaProduto
+ 
+ -- Linha 11
+ , item.cod_lin_recei as CodigoLinhaReceita
+ , p_den_linha_prod ( item.cod_lin_prod, item.cod_lin_recei, 0, 0 ) as DescricaoLinhaReceita
+ 
+ -- Linha 12
+ , item.cod_seg_merc as CodigoSegmentoMercado
+ , p_den_linha_prod ( item.cod_lin_prod, item.cod_lin_recei, item.cod_seg_merc, 0 ) as DescricaoSegmentoMercado
+ 
+ -- Linha 13
+ , item.cod_cla_uso as CodigoClasseUso
+ , p_den_linha_prod ( item.cod_lin_prod, item.cod_lin_recei, item.cod_seg_merc, item.cod_cla_uso ) as DescricaoClasseUso
+ 
+ FROM item
+ LEFT OUTER JOIN item_man
+ ON item_man.cod_empresa = item.cod_empresa
+ AND item_man.cod_item = item.cod_item
+ LEFT OUTER JOIN item_sup
+ ON item_sup.cod_empresa = item.cod_empresa
+ AND item_sup.cod_item = item.cod_item
+ LEFT OUTER JOIN lor_it_cont
+ ON lor_it_cont.cod_empresa = item.cod_empresa
+ AND lor_it_cont.cod_item = item.cod_item
+ LEFT OUTER JOIN lor_container
+ ON lor_container.cod_empresa = lor_it_cont.cod_empresa
+ AND lor_container.cod_container = lor_it_cont.cod_container
+ LEFT OUTER JOIN familia
+ ON familia.cod_empresa = item.cod_empresa
+ AND familia.cod_familia = item.cod_familia
+ LEFT OUTER JOIN lor_prod_chave
+ ON lor_prod_chave.cod_empresa = "10"
+ AND lor_prod_chave.cod_item = item.cod_item
+ LEFT OUTER JOIN local AS local_estoque
+ ON local_estoque.cod_empresa = item.cod_empresa
+ AND local_estoque.cod_local = item.cod_local_estoq
+ LEFT OUTER JOIN local AS local_inspecao
+ ON local_inspecao.cod_empresa = item.cod_empresa
+ AND local_inspecao.cod_local = item.cod_local_insp
+ LEFT OUTER JOIN local AS local_producao
+ ON local_producao.cod_empresa = item_man.cod_empresa
+ AND local_producao.cod_local = item_man.cod_local_prod
+ LEFT OUTER JOIN grupo_ctr_estoq
+ ON grupo_ctr_estoq.cod_empresa = item.cod_empresa
+ AND grupo_ctr_estoq.gru_ctr_estoq = item.gru_ctr_estoq
+ LEFT OUTER JOIN lor_item
+ ON lor_item.cod_empresa = item.cod_empresa
+ AND lor_item.cod_item = item.cod_item
+ LEFT OUTER JOIN programador
+ ON programador.cod_empresa = item_sup.cod_empresa
+ AND programador.cod_progr = item_sup.cod_progr
+ LEFT OUTER JOIN comprador
+ ON comprador.cod_empresa = item_sup.cod_empresa
+ AND comprador.cod_comprador = item_sup.cod_comprador
+ LEFT OUTER JOIN lor_item_sit
+ ON lor_item_sit.cod_situacao = lor_item.ies_situa
+ WHERE item.cod_empresa = TRIM ( "{1}" )
+ AND item.cod_item = TRIM ( "{2}" )
+ ORDER BY item.cod_item
+  '                
+  ) AS tabela</value>
+  </data>
+</root>

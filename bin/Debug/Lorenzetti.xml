@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lorenzetti</name>
+    </assembly>
+    <members>
+        <member name="T:Lorenzetti.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.Dispose">
+            <summary>
+            Encerra a conexão.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.BeginTransaction">
+            <summary>
+            Inicia uma transação.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.Commit">
+            <summary>
+            Faz o Commit de uma transação.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.Rollback">
+            <summary>
+            Faz o Rollback de uma transação.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.Escalar(System.String)">
+            <summary>
+            Executa uma consulta para retornar uma linha e uma coluna.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.DataSet(System.String)">
+            <summary>
+            Executa uma consulta e armazenada os dados num DataSet.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.DataTable(System.String)">
+            <summary>
+            Executa uma consulta armazenada os dados num DataTable.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.UpdateDataSource(System.String,System.Object)">
+            <summary>
+            Atualiza os dados de um Grid no banco de dados.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.UpdateDataSource(System.String,System.Object,Lorenzetti.DB.CommandBuilder,Lorenzetti.DB.CommandBuilder,Lorenzetti.DB.CommandBuilder)">
+            <summary>
+            Atualiza os dados de um Grid no banco de dados informando comandos específicos.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.DataReader(System.String)">
+            Executa uma consulta e armazenada os dados num DataReader.
+            Para Informix receba um IfxDataReader
+            Para SQL Server receba um SqlDataReader
+            Para ODB receba um OdbcDataReader
+            
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.NonQuery(System.String)">
+            <summary>
+            Executa um comando sem retorno como, por exemplo, INSERT, DELETE, UPDATE.
+            Utiliza a propriedade LinhasAfetadas para saber a quantidade de registros afetados.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.NonQuery(System.Object)">
+            <summary>
+            Executa um comando sem retorno como, por exemplo, INSERT, DELETE, UPDATE.
+            Utiliza a propriedade LinhasAfetadas para saber a quantidade de registros afetados.
+            Recebe um OdbcCommand.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.CreateCommand(System.String)">
+            <summary>
+            Cria um objeto Command para ser usado com NonQuery.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.StoredProcedure(System.String)">
+            <summary>
+            Executa uma StoredProcedure.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.ObtemIdentity(System.String)">
+            <summary>
+            Obtem o último valor de auto incremento inserido na tabela.
+            Para base de dados INFORMIX passar o nome da tabela por parâmetro.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.AdicionaParametro(System.String,System.Data.DbType,System.Object)">
+            <summary>
+            Adiciona um novo parâmetro para ser utilizado no comando SQL.
+            Para banco de dados INFORMIX o ? é substituido pelo parâmetro.
+            Para banco de dados SQL SERVER o @nome é substituido pelo parâmetro.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.Banco.CreateCommandBuilder(System.String)">
+            <summary>
+            Cria um objeto CommandBuilder específico para a conexão atual.
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.DB.Banco.Ambiente">
+            <summary>
+            Ambiente de deselvolvimento (produção, teste, etc)
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.DB.Banco.ClientBanco">
+            <summary>
+            Tipo de client usado para acessar o banco.
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.DB.Banco.Database">
+            <summary>
+            Nome do banco de dados.
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.DB.Banco.Host">
+            <summary>
+            Host name do banco de dados.
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.DB.Banco.Servidor">
+            <summary>
+            Servidor do banco de dados.
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.DB.Banco.TimeOutConexao">
+            <summary>
+            Time out para conexão. Usado para Informix e Sql Server.
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.DB.Banco.TimeOutCommando">
+            <summary>
+            Time out para execução de comando sql.
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.DB.Banco.Usuario">
+            <summary>
+            Usuáeio do banco de dados.
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.DB.Banco.Senha">
+            <summary>
+            Senha do banco de dados.
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.DB.Banco.ConexaoStatus">
+            <summary>
+            Status da conexão com o bano de dados.
+            </summary>
+        </member>
+        <member name="P:Lorenzetti.DB.Banco.LinhasAfetadas">
+            <summary>
+            Linhas afetadas no último comando sql.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.Comum.Validacao.ValidaCnpj(System.Int32,System.Int32,System.Int32)">
+            <summary>
+                Verifica se o CNPJ é válido.
+            </summary>
+            <param name="raiz">Raiz do CNPJ.</param>
+            <param name="filial">Filial do CNPJ.</param>
+            <param name="digito">Digito verificador do CNPJ.</param>
+            <returns>
+                Retorna True se o CNPJ for válido.
+            </returns>
+        </member>
+        <member name="M:Lorenzetti.Comum.Validacao.ValidaCnpj(System.String)">
+            <summary>
+                Verifica se o CNPJ é válido.
+            </summary>
+            <param name="cnpj">CNPJ a ser validado com 14 digitos. Exemplo: '00.000.000/0000-00' ou '00000000000000' </param>
+            <returns>
+                Retorna True se o CNPJ for válido.
+            </returns>
+        </member>
+        <member name="M:Lorenzetti.Comum.Validacao.ValidaCpf(System.String)">
+            <summary>
+                Verifica se o CPF é válido.
+            </summary>
+            <param name="cpf">CPF a ser validado com ou sem formatação.</param>
+            <returns>
+                Retorna True se o CPF for válido.
+            </returns>
+        </member>
+        <member name="M:Lorenzetti.Comum.Conversores.ConvertToInt(System.String,System.String,System.Data.DataTable,System.Int32)">
+            <summary>
+                Convert um campo de um DataRow para int
+            </summary>
+            <param name="tabela" type="string">
+                <para>
+                    Nome da tabela
+                </para>
+            </param>
+            <param name="campo" type="string">
+                <para>
+                    Nome do campo
+                </para>
+            </param>
+            <param name="dT" type="System.Data.DataTable">
+                <para>
+                    Linha do DataTable
+                </para>
+            </param>
+            <param name="indice" type="int">
+                <para>
+                    Índice do DataTable ( linha )
+                </para>
+            </param>
+            <returns>
+                Valor inteiro convertido
+            </returns>
+        </member>
+        <member name="M:Lorenzetti.Comum.Conversores.ConvertToLong(System.String,System.String,System.Data.DataTable,System.Int32)">
+            <summary>
+                Convert um campo de um DataRow para int
+            </summary>
+            <param name="tabela" type="string">
+                <para>
+                    Nome da tabela
+                </para>
+            </param>
+            <param name="campo" type="string">
+                <para>
+                    Nome do campo
+                </para>
+            </param>
+            <param name="dT" type="System.Data.DataTable">
+                <para>
+                    Linha do DataTable
+                </para>
+            </param>
+            <param name="indice" type="int">
+                <para>
+                    Índice do DataTable ( linha )
+                </para>
+            </param>
+            <returns>
+                Valor inteiro convertido
+            </returns>
+        </member>
+        <member name="M:Lorenzetti.Comum.Conversores.ConvertToDecimal(System.String,System.String,System.Data.DataTable,System.Int32)">
+            <summary>
+                Convert um campo de um DataRow para decimal
+            </summary>
+            <param name="tabela" type="string">
+                <para>
+                    Nome da tabela
+                </para>
+            </param>
+            <param name="campo" type="string">
+                <para>
+                    Nome do campo
+                </para>
+            </param>
+            <param name="dT" type="System.Data.DataTable">
+                <para>
+                    Linha do DataTable
+                </para>
+            </param>
+            <param name="indice" type="int">
+                <para>
+                    Índice do DataTable ( linha )
+                </para>
+            </param>
+            <returns>
+                Valor decimal convertido
+            </returns>
+        </member>
+        <member name="M:Lorenzetti.Comum.Conversores.ConvertToBool(System.String,System.String,System.Data.DataTable,System.Int32)">
+            <summary>
+                Convert um campo de um DataRow para bool
+            </summary>
+            <param name="tabela" type="string">
+                <para>
+                    Nome da tabela
+                </para>
+            </param>
+            <param name="campo" type="string">
+                <para>
+                    Nome do campo
+                </para>
+            </param>
+            <param name="dT" type="System.Data.DataTable">
+                <para>
+                    Linha do DataTable
+                </para>
+            </param>
+            <param name="indice" type="int">
+                <para>
+                    Índice do DataTable ( linha )
+                </para>
+            </param>
+            <returns>
+                Valor booleano convertido
+            </returns>
+        </member>
+        <member name="M:Lorenzetti.Comum.Conversores.ConvertToDateTime(System.String,System.String,System.Data.DataTable,System.Int32)">
+            <summary>
+                Convert um campo de um DataRow para DateTime
+            </summary>
+            <param name="tabela" type="string">
+                <para>
+                    Nome da tabela
+                </para>
+            </param>
+            <param name="campo" type="string">
+                <para>
+                    Nome do campo
+                </para>
+            </param>
+            <param name="dT" type="System.Data.DataTable">
+                <para>
+                    Linha do DataTable
+                </para>
+            </param>
+            <param name="indice" type="int">
+                <para>
+                    Índice do DataTable ( linha )
+                </para>
+            </param>
+            <returns>
+                Valor DateTime convertido
+            </returns>
+        </member>
+        <member name="M:Lorenzetti.Comum.Conversores.IsNumeric(System.String)">
+            <summary>
+                Verifica se o conteudo da string contem somente caracteres numericos
+            </summary>
+            <param name="valor" type="string">
+                <para>
+                    Conteudo a ser verificado
+                </para>
+            </param>
+            <returns>
+                TRUE para conteudo numerico ou FALSE para conteudo nao numerico
+            </returns>
+        </member>
+        <member name="T:Lorenzetti.DB.CommandBuilder">
+            <summary>
+            Objeto utilizado para criar comandos específicos para atualizar um System.Data.DataSet no banco de dados.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.CommandBuilder.#ctor(System.String,Lorenzetti.eClientBanco)">
+            <summary>
+            Cria uma instancia do objeto.
+            commandText - Comando UPDATE, DELETE ou INSERT.
+            clientBanco - Client do banco de dados.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.CommandBuilder.AdicionaParametro(System.String,System.Data.DbType,System.String)">
+            <summary>
+            Cria um parâmetro para mapear os campo a serem atualizados.
+            </summary>
+        </member>
+        <member name="M:Lorenzetti.DB.CommandBuilder.AdicionaParametro(System.String,System.Data.DbType,System.String,System.Data.DataRowVersion)">
+            <summary>
+            Cria um parâmetro para mapear os campo a serem atualizados.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Query" xml:space="preserve">
+    <value>SELECT  tabela.CodigoItem
+     ,  tabela.DescricaoItem
+     ,  tabela.CodigoUnidademedida
+     ,  tabela.QuantidadePecasItem
+     ,  tabela.QuantidadeItensCaixa
+     ,  tabela.ProdutoComprimento
+     ,  tabela.ProdutoLargura
+     ,  tabela.ProdutoAltura
+     ,  tabela.ProdutoPeso
+     ,  tabela.ProdutoVolume
+     ,  tabela.ProdutoVolumeAdicional
+     ,  tabela.QuantidadeEmbalagemVarejo
+     ,  tabela.EmbalagemComprimento
+     ,  tabela.EmbalagemLargura
+     ,  tabela.EmbalagemAltura
+     ,  tabela.EmbalagemPesoVazia
+     ,  tabela.EmbalagemPesoCheia
+     ,  tabela.EmbalagemVolume
+     ,  tabela.PaleteQuantidadeCaixasCamada
+     ,  tabela.PaleteQuantidadeCamadas
+     ,  tabela.QuantidadeCaixasColetivas
+     ,  tabela.QuantidadeEmlagensVendaVarejo
+     ,  tabela.PaletePeso
+  FROM  OPENQUERY
+  (
+    {0}
+  ,    'SELECT  item.cod_item::CHAR(15) AS CodigoItem
+             ,  item.den_item::CHAR(40) AS DescricaoItem
+             ,  item.cod_unid_med::CHAR(3) AS CodigoUnidademedida
+             ,  NVL ( lor_item.qtd_pcs_ite, 0 )::INTEGER AS QuantidadePecasItem
+             ,  NVL ( lor_item.qtd_ite_cai, 0 )::INTEGER AS QuantidadeItensCaixa
+             ,  NVL ( lor_eb_dimensoes.prd_comprim, 0 )::DECIMAL(7,5) AS ProdutoComprimento
+             ,  NVL ( lor_eb_dimensoes.prd_largura, 0 )::DECIMAL(7,5) AS ProdutoLargura
+             ,  NVL ( lor_eb_dimensoes.prd_altura, 0 )::DECIMAL(7,5) AS ProdutoAltura
+             ,  NVL ( item.pes_unit, 0 )::DECIMAL(7,5) AS ProdutoPeso
+             ,  NVL ( lor_eb_dimensoes.prd_volume, 0 )::DECIMAL(7,5) AS ProdutoVolume
+             ,  NVL ( lor_eb_dimensoes.prd_volume_ad, 0 )::DECIMAL(7,5) AS ProdutoVolumeAdicional
+             ,  NVL ( lor_item.qtd_cai_emb, 0 )::INTEGER AS QuantidadeEmbalagemVarejo
+             ,  NVL ( lor_item.emb_comprim, 0 )::DECIMAL(7,5) AS EmbalagemComprimento
+             ,  NVL ( lor_item.emb_largura, 0 )::DECIMAL(7,5) AS EmbalagemLargura
+             ,  NVL ( lor_item.emb_altura, 0 )::DECIMAL(7,5) AS EmbalagemAltura
+             ,  NVL ( lor_item.pes_embal, 0 )::DECIMAL(7,3) AS EmbalagemPesoVazia
+             ,  NVL ( lor_item.pes_embal + ( lor_item.qtd_cai_emb * lor_item.qtd_ite_cai * lor_item.qtd_pcs_ite * item.pes_unit ), 0 )::DECIMAL(7,3) AS EmbalagemPesoCheia
+             ,  NVL ( ( lor_item.emb_comprim * lor_item.emb_largura * lor_item.emb_altura ) , 0 )::DECIMAL(7,5) AS EmbalagemVolume
+             ,  NVL ( lor_item.qtd_emb_cam, 0 )::INTEGER AS PaleteQuantidadeCaixasCamada
+             ,  NVL ( lor_item.qtd_cam_pal, 0 )::INTEGER AS PaleteQuantidadeCamadas
+             ,  NVL ( lor_item.qtd_emb_pal, 0 )::INTEGER AS QuantidadeCaixasColetivas
+             ,  NVL ( ( lor_item.qtd_emb_pal * lor_item.qtd_cai_emb ), 0 )::INTEGER AS QuantidadeEmlagensVendaVarejo
+             ,  NVL ( ( ( lor_item.pes_embal + ( lor_item.qtd_cai_emb * lor_item.qtd_ite_cai * lor_item.qtd_pcs_ite  * item.pes_unit ) ) * lor_item.qtd_emb_pal ), 0 )::DECIMAL(7,3) AS PaletePeso
+    FROM  item
+    LEFT  OUTER JOIN lor_item
+      ON  lor_item.cod_empresa         = item.cod_empresa
+      AND lor_item.cod_item            = item.cod_item
+    LEFT  OUTER JOIN lor_eb_dimensoes
+      ON  lor_eb_dimensoes.cod_empresa = item.cod_empresa
+      AND lor_eb_dimensoes.cod_item    = item.cod_item
+    WHERE item.cod_empresa             = UPPER ( TRIM ( "{1}" ) )
+    AND   item.cod_item                = UPPER ( TRIM ( "{2}" ) )
+ '           
+) AS tabela</value>
+  </data>
+</root>

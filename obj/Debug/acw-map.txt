@@ -1,0 +1,28 @@
+Lor0138.Activities.Main.ActMain, Lor0138;md56347272c0ca2697c10b2815c59fc59a0.ActMain
+Lor0138.Activities.Main.ActMain, Lor0138, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56347272c0ca2697c10b2815c59fc59a0.ActMain
+Lor0138.Activities.Main.ActMain;md56347272c0ca2697c10b2815c59fc59a0.ActMain
+lor0138.activities.main.ActMain;md56347272c0ca2697c10b2815c59fc59a0.ActMain
+Lor0138.Activities.Main.MenuListAdapterClass, Lor0138;md56347272c0ca2697c10b2815c59fc59a0.MenuListAdapterClass
+Lor0138.Activities.Main.MenuListAdapterClass, Lor0138, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56347272c0ca2697c10b2815c59fc59a0.MenuListAdapterClass
+Lor0138.Activities.Main.MenuListAdapterClass;md56347272c0ca2697c10b2815c59fc59a0.MenuListAdapterClass
+lor0138.activities.main.MenuListAdapterClass;md56347272c0ca2697c10b2815c59fc59a0.MenuListAdapterClass
+Lor0138.Activities.Main.MenuListViewHolderClass, Lor0138;md56347272c0ca2697c10b2815c59fc59a0.MenuListViewHolderClass
+Lor0138.Activities.Main.MenuListViewHolderClass, Lor0138, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56347272c0ca2697c10b2815c59fc59a0.MenuListViewHolderClass
+Lor0138.Activities.Main.MenuListViewHolderClass;md56347272c0ca2697c10b2815c59fc59a0.MenuListViewHolderClass
+lor0138.activities.main.MenuListViewHolderClass;md56347272c0ca2697c10b2815c59fc59a0.MenuListViewHolderClass
+Lor0138.Classes.Comum.ProgressDialogTask, Lor0138;md561a885e238511f5b14dfe45bcac61796.ProgressDialogTask
+Lor0138.Classes.Comum.ProgressDialogTask, Lor0138, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md561a885e238511f5b14dfe45bcac61796.ProgressDialogTask
+Lor0138.Classes.Comum.ProgressDialogTask;md561a885e238511f5b14dfe45bcac61796.ProgressDialogTask
+lor0138.classes.comum.ProgressDialogTask;md561a885e238511f5b14dfe45bcac61796.ProgressDialogTask
+Lor0138.Classes.Comum.GestureListener, Lor0138;md561a885e238511f5b14dfe45bcac61796.GestureListener
+Lor0138.Classes.Comum.GestureListener, Lor0138, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md561a885e238511f5b14dfe45bcac61796.GestureListener
+Lor0138.Classes.Comum.GestureListener;md561a885e238511f5b14dfe45bcac61796.GestureListener
+lor0138.classes.comum.GestureListener;md561a885e238511f5b14dfe45bcac61796.GestureListener
+Lor0138.Classes.Filtro.Adapter, Lor0138;md51c08100e87a7c9c5d6ff26cd17a216f5.Adapter
+Lor0138.Classes.Filtro.Adapter, Lor0138, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51c08100e87a7c9c5d6ff26cd17a216f5.Adapter
+Lor0138.Classes.Filtro.Adapter;md51c08100e87a7c9c5d6ff26cd17a216f5.Adapter
+lor0138.classes.filtro.Adapter;md51c08100e87a7c9c5d6ff26cd17a216f5.Adapter
+Lor0138.Classes.Filtro.Classe, Lor0138;md51c08100e87a7c9c5d6ff26cd17a216f5.Classe
+Lor0138.Classes.Filtro.Classe, Lor0138, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51c08100e87a7c9c5d6ff26cd17a216f5.Classe
+Lor0138.Classes.Filtro.Classe;md51c08100e87a7c9c5d6ff26cd17a216f5.Classe
+lor0138.classes.filtro.Classe;md51c08100e87a7c9c5d6ff26cd17a216f5.Classe
